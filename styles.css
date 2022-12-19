@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weapon-container {
+    height: 210px;
+    width: 630px;
+    background-color: rgb(61, 65, 70);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px 0px;
+    
+}
+
+.container {
+    display: flex;
+    background-color: rgb(51, 39, 22);
+    color: black;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+    font-size: 30px;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name-container {
+    font-weight: bolder;
+}
+
+.weapon-name {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    font-style: italic;
+}
